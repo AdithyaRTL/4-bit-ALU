@@ -251,13 +251,13 @@ A recommended repository structure is:
 ### 1. Compile the Verilog design
 
 ```bash
-iverilog -o 4bit_alu_sim rtl/alu_4bit.v testbench/4bit_alu_tb.v
+iverilog -o alu_4bit_sim rtl/alu_4bit.v testbench/alu_4bit_tb.v
 ```
 
 ### 2. Run the simulation
 
 ```bash
-vvp 4bit_alu_sim
+vvp alu_4bit_sim
 ```
 
 This generates the waveform file if `$dumpfile` and `$dumpvars` are included in the testbench.
@@ -265,7 +265,7 @@ This generates the waveform file if `$dumpfile` and `$dumpvars` are included in 
 ### 3. Open the waveform in GTKWave
 
 ```bash
-gtkwave 4bit_alu.vcd
+gtkwave alu_4bit.vcd
 ```
 
 The waveform can then be used to inspect the inputs, operation selection, ALU output, carry output, and zero flag.

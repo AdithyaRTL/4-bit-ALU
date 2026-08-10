@@ -75,6 +75,9 @@ The ALU uses `ALU_sel[2:0]` as the operation select input.
 
 The ALU is divided into two major categories of operations.
 
+<img width="1536" height="1024" alt="Block diagram" src="https://github.com/user-attachments/assets/0821afb1-cdb7-4607-adc5-c1ff0626d460" />
+
+
 ### Logical Operations
 
 The following 4-bit logic blocks are implemented:
@@ -178,6 +181,9 @@ The resulting `ALU_Out`, `COUT`, and `ZERO` signals were observed through the ge
 ## Simulation Results
 
 All eight operations were tested successfully in simulation.
+
+<img width="1145" height="172" alt="4bit alu waveform" src="https://github.com/user-attachments/assets/181b624d-c240-4e08-9f54-82615c696e20" />
+
 
 The GTKWave waveform was used to verify the relationship between the operation select signal and the corresponding ALU output.
 

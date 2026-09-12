@@ -316,3 +316,4 @@ Possible extensions to the design include:
 This project demonstrates the design and verification of a **4-bit ALU using Verilog HDL**. The ALU integrates eight logical and arithmetic operations and uses an 8-to-1 multiplexer to select the required operation based on a 3-bit control signal.
 
 The design was simulated using **Icarus Verilog**, verified using **GTKWave**, and synthesized using **Yosys**, providing a complete introductory RTL-to-synthesis digital design workflow.
+
